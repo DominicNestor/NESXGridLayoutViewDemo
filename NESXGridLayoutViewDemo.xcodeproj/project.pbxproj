@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E7630851A7775EA00C1AB2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7630841A7775EA00C1AB2D /* main.m */; };
+		8E7630881A7775EA00C1AB2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7630871A7775EA00C1AB2D /* AppDelegate.m */; };
+		8E76308A1A7775EA00C1AB2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7630891A7775EA00C1AB2D /* Images.xcassets */; };
+		8E76308D1A7775EA00C1AB2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E76308B1A7775EA00C1AB2D /* LaunchScreen.xib */; };
+		8E7630991A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7630981A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E7630931A7775EA00C1AB2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E7630771A7775EA00C1AB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E76307E1A7775EA00C1AB2D;
+			remoteInfo = NESXGridLayoutViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E76307F1A7775EA00C1AB2D /* NESXGridLayoutViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NESXGridLayoutViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7630831A7775EA00C1AB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7630841A7775EA00C1AB2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E7630861A7775EA00C1AB2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E7630871A7775EA00C1AB2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E7630891A7775EA00C1AB2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E76308C1A7775EA00C1AB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8E7630921A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESXGridLayoutViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7630971A7775EA00C1AB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7630981A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NESXGridLayoutViewDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E76307C1A7775EA00C1AB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E76308F1A7775EA00C1AB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E7630761A7775EA00C1AB2D = {
+			isa = PBXGroup;
+			children = (
+				8E7630811A7775EA00C1AB2D /* NESXGridLayoutViewDemo */,
+				8E7630951A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests */,
+				8E7630801A7775EA00C1AB2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E7630801A7775EA00C1AB2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E76307F1A7775EA00C1AB2D /* NESXGridLayoutViewDemo.app */,
+				8E7630921A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E7630811A7775EA00C1AB2D /* NESXGridLayoutViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8E7630861A7775EA00C1AB2D /* AppDelegate.h */,
+				8E7630871A7775EA00C1AB2D /* AppDelegate.m */,
+				8E7630891A7775EA00C1AB2D /* Images.xcassets */,
+				8E76308B1A7775EA00C1AB2D /* LaunchScreen.xib */,
+				8E7630821A7775EA00C1AB2D /* Supporting Files */,
+			);
+			path = NESXGridLayoutViewDemo;
+			sourceTree = "<group>";
+		};
+		8E7630821A7775EA00C1AB2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E7630831A7775EA00C1AB2D /* Info.plist */,
+				8E7630841A7775EA00C1AB2D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E7630951A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E7630981A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests.m */,
+				8E7630961A7775EA00C1AB2D /* Supporting Files */,
+			);
+			path = NESXGridLayoutViewDemoTests;
+			sourceTree = "<group>";
+		};
+		8E7630961A7775EA00C1AB2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E7630971A7775EA00C1AB2D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E76307E1A7775EA00C1AB2D /* NESXGridLayoutViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E76309C1A7775EA00C1AB2D /* Build configuration list for PBXNativeTarget "NESXGridLayoutViewDemo" */;
+			buildPhases = (
+				8E76307B1A7775EA00C1AB2D /* Sources */,
+				8E76307C1A7775EA00C1AB2D /* Frameworks */,
+				8E76307D1A7775EA00C1AB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NESXGridLayoutViewDemo;
+			productName = NESXGridLayoutViewDemo;
+			productReference = 8E76307F1A7775EA00C1AB2D /* NESXGridLayoutViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E7630911A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E76309F1A7775EA00C1AB2D /* Build configuration list for PBXNativeTarget "NESXGridLayoutViewDemoTests" */;
+			buildPhases = (
+				8E76308E1A7775EA00C1AB2D /* Sources */,
+				8E76308F1A7775EA00C1AB2D /* Frameworks */,
+				8E7630901A7775EA00C1AB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E7630941A7775EA00C1AB2D /* PBXTargetDependency */,
+			);
+			name = NESXGridLayoutViewDemoTests;
+			productName = NESXGridLayoutViewDemoTests;
+			productReference = 8E7630921A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E7630771A7775EA00C1AB2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = NesTalk;
+				TargetAttributes = {
+					8E76307E1A7775EA00C1AB2D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8E7630911A7775EA00C1AB2D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8E76307E1A7775EA00C1AB2D;
+					};
+				};
+			};
+			buildConfigurationList = 8E76307A1A7775EA00C1AB2D /* Build configuration list for PBXProject "NESXGridLayoutViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E7630761A7775EA00C1AB2D;
+			productRefGroup = 8E7630801A7775EA00C1AB2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E76307E1A7775EA00C1AB2D /* NESXGridLayoutViewDemo */,
+				8E7630911A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E76307D1A7775EA00C1AB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E76308D1A7775EA00C1AB2D /* LaunchScreen.xib in Resources */,
+				8E76308A1A7775EA00C1AB2D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7630901A7775EA00C1AB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E76307B1A7775EA00C1AB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7630881A7775EA00C1AB2D /* AppDelegate.m in Sources */,
+				8E7630851A7775EA00C1AB2D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E76308E1A7775EA00C1AB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7630991A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E7630941A7775EA00C1AB2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E76307E1A7775EA00C1AB2D /* NESXGridLayoutViewDemo */;
+			targetProxy = 8E7630931A7775EA00C1AB2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E76308B1A7775EA00C1AB2D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E76308C1A7775EA00C1AB2D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E76309A1A7775EA00C1AB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E76309B1A7775EA00C1AB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E76309D1A7775EA00C1AB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NESXGridLayoutViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E76309E1A7775EA00C1AB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NESXGridLayoutViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E7630A01A7775EA00C1AB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NESXGridLayoutViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NESXGridLayoutViewDemo.app/NESXGridLayoutViewDemo";
+			};
+			name = Debug;
+		};
+		8E7630A11A7775EA00C1AB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NESXGridLayoutViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NESXGridLayoutViewDemo.app/NESXGridLayoutViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E76307A1A7775EA00C1AB2D /* Build configuration list for PBXProject "NESXGridLayoutViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E76309A1A7775EA00C1AB2D /* Debug */,
+				8E76309B1A7775EA00C1AB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E76309C1A7775EA00C1AB2D /* Build configuration list for PBXNativeTarget "NESXGridLayoutViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E76309D1A7775EA00C1AB2D /* Debug */,
+				8E76309E1A7775EA00C1AB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E76309F1A7775EA00C1AB2D /* Build configuration list for PBXNativeTarget "NESXGridLayoutViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7630A01A7775EA00C1AB2D /* Debug */,
+				8E7630A11A7775EA00C1AB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E7630771A7775EA00C1AB2D /* Project object */;
+}
