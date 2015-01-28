@@ -12,6 +12,9 @@
 		8E76308A1A7775EA00C1AB2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7630891A7775EA00C1AB2D /* Images.xcassets */; };
 		8E76308D1A7775EA00C1AB2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E76308B1A7775EA00C1AB2D /* LaunchScreen.xib */; };
 		8E7630991A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7630981A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests.m */; };
+		8E7630A51A77760800C1AB2D /* NESMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7630A41A77760800C1AB2D /* NESMainViewController.m */; };
+		8E7630A81A77763900C1AB2D /* NESXGridLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7630A71A77763900C1AB2D /* NESXGridLayoutView.m */; };
+		8E7630AB1A77854900C1AB2D /* NESSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7630AA1A77854900C1AB2D /* NESSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 		8E7630921A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESXGridLayoutViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7630971A7775EA00C1AB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E7630981A7775EA00C1AB2D /* NESXGridLayoutViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NESXGridLayoutViewDemoTests.m; sourceTree = "<group>"; };
+		8E7630A31A77760800C1AB2D /* NESMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NESMainViewController.h; sourceTree = "<group>"; };
+		8E7630A41A77760800C1AB2D /* NESMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NESMainViewController.m; sourceTree = "<group>"; };
+		8E7630A61A77763900C1AB2D /* NESXGridLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NESXGridLayoutView.h; sourceTree = "<group>"; };
+		8E7630A71A77763900C1AB2D /* NESXGridLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NESXGridLayoutView.m; sourceTree = "<group>"; };
+		8E7630A91A77854900C1AB2D /* NESSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NESSecondViewController.h; sourceTree = "<group>"; };
+		8E7630AA1A77854900C1AB2D /* NESSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NESSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +85,16 @@
 		8E7630811A7775EA00C1AB2D /* NESXGridLayoutViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8E7630A21A7775FD00C1AB2D /* NESXGridLayoutView */,
 				8E7630861A7775EA00C1AB2D /* AppDelegate.h */,
 				8E7630871A7775EA00C1AB2D /* AppDelegate.m */,
 				8E7630891A7775EA00C1AB2D /* Images.xcassets */,
 				8E76308B1A7775EA00C1AB2D /* LaunchScreen.xib */,
 				8E7630821A7775EA00C1AB2D /* Supporting Files */,
+				8E7630A31A77760800C1AB2D /* NESMainViewController.h */,
+				8E7630A41A77760800C1AB2D /* NESMainViewController.m */,
+				8E7630A91A77854900C1AB2D /* NESSecondViewController.h */,
+				8E7630AA1A77854900C1AB2D /* NESSecondViewController.m */,
 			);
 			path = NESXGridLayoutViewDemo;
 			sourceTree = "<group>";
@@ -109,6 +123,15 @@
 				8E7630971A7775EA00C1AB2D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E7630A21A7775FD00C1AB2D /* NESXGridLayoutView */ = {
+			isa = PBXGroup;
+			children = (
+				8E7630A61A77763900C1AB2D /* NESXGridLayoutView.h */,
+				8E7630A71A77763900C1AB2D /* NESXGridLayoutView.m */,
+			);
+			path = NESXGridLayoutView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +178,7 @@
 		8E7630771A7775EA00C1AB2D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = NES;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = NesTalk;
 				TargetAttributes = {
@@ -210,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7630A81A77763900C1AB2D /* NESXGridLayoutView.m in Sources */,
+				8E7630A51A77760800C1AB2D /* NESMainViewController.m in Sources */,
 				8E7630881A7775EA00C1AB2D /* AppDelegate.m in Sources */,
 				8E7630851A7775EA00C1AB2D /* main.m in Sources */,
+				8E7630AB1A77854900C1AB2D /* NESSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

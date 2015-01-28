@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "NESMainViewController.h"
+#import "NESSecondViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -20,6 +21,13 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    UITabBarController *tbc = [[UITabBarController alloc] init];
+    tbc.viewControllers = [NSArray arrayWithObjects:[[NESMainViewController
+                                                      alloc]init],[[NESSecondViewController alloc] init], nil];
+    
+    self.window.rootViewController = tbc;
+    
     return YES;
 }
 
