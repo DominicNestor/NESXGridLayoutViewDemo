@@ -1,4 +1,4 @@
-NESRoundImageDemo
+NESXGridLayoutView
 =================
 Eazy way to get a nice pic with round corner,shadow,border,support autolayout.
 
